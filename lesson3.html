@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <div class="js-container"></div>
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel" >
+  
+    function App() {
+         const [count, setCount] = React.useState(0);
+         const [counter,setCounter]=React.useState(0);
+         const [name, setName] = React.useState('Aishah');
+
+
+        function increase() {
+            setCount(count + 1);
+
+        }
+        function decrease() {
+            setCounter(counter - 1);
+            
+        }
+        function greeting() {
+            setName('Hello',name);
+        }
+        
+
+        return (
+            <>
+            <button onClick={increase}>
+                Clicked {count} times
+            </button>
+            <button onClick={decrease}>
+               {counter} times
+            </button>
+            <button onClick={greeting}>
+                {name}
+            </button>
+           
+            </>
+        );
+        
+    }
+  
+    
+
+      const container = document.querySelector('.js-container');
+        ReactDOM.createRoot(container).render(<App />); 
+    </script>
+    
+</body>
+</html>
