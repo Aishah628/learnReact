@@ -1,8 +1,9 @@
 
 import './App.css'
 import React from 'react'
-import Card from './card';
-
+import Card from './card.jsx';
+import List from './list.jsx';
+import Button from './button.jsx';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <>
     <h1>App Component</h1>
       <h1>End of App Component</h1>
-      <Card name="Alice" age={25} />
-      <Card name="Bob" />
-      <Card age={30} />
+      <Card/>
+      <List/>
+      <Button/>
+
      
 
     </>
