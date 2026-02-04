@@ -4,6 +4,7 @@ import React from 'react'
 import Card from './card.jsx';
 import List from './list.jsx';
 import Button from './button.jsx';
+import Header from "./header.jsx";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Card/>
       <List/>
       <Button/>
+      <Header/>
 
      
 
