@@ -6,6 +6,7 @@ import List from './list.jsx';
 import Button from './button.jsx';
 import Header from "./header.jsx";
 import Component from './lists.jsx';
+import ToDoList from './toDoList.jsx';
 
 
 function App() {
@@ -19,9 +20,11 @@ function App() {
       <List/>
       <Button/>
       <Header/>
+      <Component/>
      */}
 
-      <Component/>
+      
+      <ToDoList/>
 
      
 
