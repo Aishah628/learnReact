@@ -7,6 +7,7 @@ import Button from './button.jsx';
 import Header from "./header.jsx";
 import Component from './lists.jsx';
 import ToDoList from './toDoList.jsx';
+import ColorPicker from "./colorPicker.jsx";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
 
       
       <ToDoList/>
-
+      <ColorPicker/>
      
 
     </>
