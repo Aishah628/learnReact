@@ -8,7 +8,8 @@ import Header from "./header.jsx";
 import Component from './lists.jsx';
 import ToDoList from './toDoList.jsx';
 import ColorPicker from "./colorPicker.jsx";
-
+import DigitalClock from './digitalClock.jsx';
+import './digitalClock.css';
 
 function App() {
  
@@ -22,11 +23,13 @@ function App() {
       <Button/>
       <Header/>
       <Component/>
+        <ToDoList/>
+      <ColorPicker/>
      */}
 
       
-      <ToDoList/>
-      <ColorPicker/>
+    
+      <DigitalClock/>
      
 
     </>
