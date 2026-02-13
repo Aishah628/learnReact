@@ -9,7 +9,9 @@ import Component from './lists.jsx';
 import ToDoList from './toDoList.jsx';
 import ColorPicker from "./colorPicker.jsx";
 import DigitalClock from './digitalClock.jsx';
-import './digitalClock.css';
+/*import './digitalClock.css';   css of DigitalClock*/ 
+import StopWatch from './stopWatch.jsx';
+
 
 function App() {
  
@@ -25,12 +27,14 @@ function App() {
       <Component/>
         <ToDoList/>
       <ColorPicker/>
+      <DigitalClock/>
      */}
 
       
     
-      <DigitalClock/>
+      <StopWatch/>
      
+      <StopWatch/>
 
     </>
   )
