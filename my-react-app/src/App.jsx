@@ -9,9 +9,9 @@ import Component from './lists.jsx';
 import ToDoList from './toDoList.jsx';
 import ColorPicker from "./colorPicker.jsx";
 import DigitalClock from './digitalClock.jsx';
+import SimpleFact from './simplefact.jsx'
 /*import './digitalClock.css';   css of DigitalClock*/ 
 import StopWatch from './stopWatch.jsx';
-
 
 function App() {
  
@@ -28,13 +28,15 @@ function App() {
         <ToDoList/>
       <ColorPicker/>
       <DigitalClock/>
+      
+      <StopWatch/>
+     
+      <StopWatch/>
      */}
 
       
     
-      <StopWatch/>
-     
-      <StopWatch/>
+      <SimpleFact/>
 
     </>
   )
