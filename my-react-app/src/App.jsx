@@ -10,6 +10,7 @@ import ToDoList from './toDoList.jsx';
 import ColorPicker from "./colorPicker.jsx";
 import DigitalClock from './digitalClock.jsx';
 import SimpleFact from './simplefact.jsx'
+import Login from './login.jsx';
 /*import './digitalClock.css';   css of DigitalClock*/ 
 import StopWatch from './stopWatch.jsx';
 
@@ -32,11 +33,13 @@ function App() {
       <StopWatch/>
      
       <StopWatch/>
+      <SimpleFact/>
      */}
 
+<Login/>
       
     
-      <SimpleFact/>
+      
 
     </>
   )
